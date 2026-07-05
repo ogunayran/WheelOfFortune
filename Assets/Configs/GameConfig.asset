@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e90c4c6715578449a94b9da361fdbced, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  safeZoneInterval: 5
+  superZoneInterval: 30
+  rewardGrowthPerZone: 0.25
+  normalWheel: {fileID: 11400000, guid: 930525e698b27c0c7f984228ede671e2, type: 2}
+  safeWheel: {fileID: 11400000, guid: 25311c9759b82e6e777e6e12f8d06698, type: 2}
+  superWheel: {fileID: 11400000, guid: 96438d1635ffe5002ab7051a0c69f340, type: 2}
+  reviveCostCurrency: 25
+  startingCurrency: 50
+  currencyReward: {fileID: 11400000, guid: 7716a8dca8df8c6a8665ab83ec838d27, type: 2}
+  spinDuration: 4
+  spinFullTurns: 5

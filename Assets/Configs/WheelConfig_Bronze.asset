@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 349052747d7fc42b3b6370bc4f6c5b70, type: 3}
+  m_Name: WheelConfig_Bronze
+  m_EditorClassIdentifier: 
+  zoneType: 0
+  title: BRONZE SPIN
+  baseSprite: {fileID: 21300000, guid: 32128d8ceb9d84b0caf77834d6b2b60f, type: 3}
+  indicatorSprite: {fileID: 21300000, guid: b850f8460490a4c958653d4f4f548cde, type: 3}
+  bombSprite: {fileID: 21300000, guid: c7cc284c0c15d47e0ab58ede02e0bb32, type: 3}
+  slices:
+  - reward: {fileID: 11400000, guid: 717ccb1b3b413f05b030168c1f69e622, type: 2}
+    baseAmount: 100
+    isBomb: 0
+  - reward: {fileID: 0}
+    baseAmount: 0
+    isBomb: 1
+  - reward: {fileID: 11400000, guid: 7716a8dca8df8c6a8665ab83ec838d27, type: 2}
+    baseAmount: 10
+    isBomb: 0
+  - reward: {fileID: 11400000, guid: df0e7562a42c07a6d4863c838c8614c5, type: 2}
+    baseAmount: 1
+    isBomb: 0
+  - reward: {fileID: 11400000, guid: 0b9735968eac32bfd64b2ff33a16ff46, type: 2}
+    baseAmount: 30
+    isBomb: 0
+  - reward: {fileID: 11400000, guid: 717ccb1b3b413f05b030168c1f69e622, type: 2}
+    baseAmount: 250
+    isBomb: 0
+  - reward: {fileID: 11400000, guid: 05aecb9458e8cf998e1813fbde1bc4e8, type: 2}
+    baseAmount: 30
+    isBomb: 0
+  - reward: {fileID: 11400000, guid: 7716a8dca8df8c6a8665ab83ec838d27, type: 2}
+    baseAmount: 25
+    isBomb: 0
